@@ -2,3 +2,5 @@ env
 chest_xray
 model.pkl
 index.
+cnn_chest_xray_light.pth
+__pycache__/
