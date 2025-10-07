@@ -160,7 +160,7 @@ for epoch in range(epochs):
     if val_loss < best_val_loss:
         best_val_loss = val_loss
         torch.save(model.state_dict(), model_path)
-        print("✅ Saved new best model")
+        print("Saved new best model")
 
     # Early stopping
     early_stopper(val_loss)
